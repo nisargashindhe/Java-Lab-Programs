@@ -15,12 +15,16 @@ public double sum()
 return (a+b);
 }
 }
+
+
+
+
 import mypack.Addition;
 public class TestPack
 {
 public static void main(String[] args)
 {
-Addition a=new Addition(50.25,20.60);
+Addition a = new Addition(50.25,20.60);
 System.out.println("Addition of two numbers::"+a.sum());
 }
 }
